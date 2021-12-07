@@ -4,7 +4,7 @@ const Produtos = () => {
     <>
       <a href="/produtos">Produtos</a>
     </>
-  )
+  );
 }
 
 export default Produtos;

@@ -5,7 +5,6 @@ import Lista from "./components/Lista.jsx";
 function App() {
   return (
     <div className="App">
-      <h1>Lista de Produtos</h1>
       <ul>
         <li>
           <Home />
@@ -14,7 +13,8 @@ function App() {
           <Produtos />
         </li>
       </ul>
-      { window.location.pathname === "/" ? (<h3>luis</h3>) : <Lista /> }
+      { window.location.pathname === "/" ?
+       (<h3>Página principal</h3>) : <Lista /> }
     </div>
   );
 }
