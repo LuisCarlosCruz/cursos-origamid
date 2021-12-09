@@ -1,12 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react';
 
 function App() {
-  const [state, setState] = React.useState('luis');
+  const [state, setState] = useState(false);
+
+  const handleOnClick = () => {
+    setState(!state);
+  }
 
   return (
     <div className="App">
-      <h1>TESTE</h1>
-      <h3>{state}</h3>
+      <button onClick={handleOnClick}>TESTE</button>
+      {console.log(state)}
     </div>
   );
 }
