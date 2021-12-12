@@ -1,16 +1,12 @@
-import React, { useState } from 'react';
+import React from 'react';
+// import fetch from './service/fetch';
 
 function App() {
-  const [state, setState] = useState(false);
-
-  const handleOnClick = () => {
-    setState(!state);
-  }
+  // const [stateApp, setStateApp] = useState(false);
 
   return (
-    <div className="App">
-      <button onClick={handleOnClick}>TESTE</button>
-      {console.log(state)}
+    <div> 
+      <button onClick={}>CLICK</button>
     </div>
   );
 }
