@@ -1,11 +1,10 @@
-import Header from "./componentes/Header";
 import Provider from "./Context/Provider";
 
 function App() {
 
   return (
     <Provider>
-      <Header />
+      <h1>titulo</h1>
     </Provider>
   );
 }
